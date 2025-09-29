@@ -1,0 +1,34 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Virtual Environment
+venv
+.venv/
+venv/
+
+# Editor-related files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+
+# My secrets
+secrets.ini
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+wheels/
+*.egg-info/
+*.whl
+
+
+# Test files 
+test.py

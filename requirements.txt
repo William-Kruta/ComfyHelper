@@ -1,0 +1,9 @@
+# Web related
+websocket-client==1.8.0
+
+#LLM 
+ollama
+
+# Media 
+opencv-python
+pillow
