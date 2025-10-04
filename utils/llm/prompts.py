@@ -69,7 +69,7 @@ def create_multiple_prompts(
     intervals: int = 20,
 ):
     responses = []
-    full_prompt = f"Create a prompt based on this premise: {seed_prompt}. Respond with nothing but the prompt. Have a focus on the pose of the subjects body. Don't be over wordy. Do not mention colors of clothing."
+    full_prompt = f"Create a prompt based on this premise: {seed_prompt}. Respond with nothing but the prompt."
     index = 0
     try:
         while index < intervals:
@@ -84,6 +84,4 @@ def create_multiple_prompts(
 
 if __name__ == "__main__":
     model = "mannix/llama3.1-8b-abliterated:q4_0"
-    create_multiple_prompts(
-        "A woman wearing a bikini in a room", model, "prompts.txt", intervals=50
-    )
+    create_multiple_prompts("YOUR PROMPT HERE", model, "prompts.txt", intervals=50)

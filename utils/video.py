@@ -105,4 +105,4 @@ if __name__ == "__main__":
     INPUT = "test.mp4"
     OUTPUT = "test1.mp4"
 
-    trim_video_ffmpeg(INPUT, OUTPUT, "00:00", "00:01", reencode=True)
+    trim_video_ffmpeg(INPUT, OUTPUT, "00:00", "00:03", reencode=True)

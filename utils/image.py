@@ -222,8 +222,13 @@ def cli():
     scale_image(
         args.input,
         args.output,
+        scale=args.scale,
         width_preference=args.width,
         height_preference=args.height,
         no_aspect=args.no_aspect,
         allow_upscale=args.allow_upscale,
     )
+
+
+if __name__ == "__main__":
+    cli()
